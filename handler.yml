@@ -7,6 +7,6 @@
     
   handlers:
   - name: restart apache
-    service: name=apache state=restarted
+    service: name=httpd state=restarted
     listen: "restart web services"
 
