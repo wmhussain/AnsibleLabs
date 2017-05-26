@@ -1,5 +1,5 @@
 ---
- -hosts: all
+- hosts: all
   tasks: 
-   -name: Test Connectivity of hosts
+  - name: Test Connectivity of hosts
     ping:
