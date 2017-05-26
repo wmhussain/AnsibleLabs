@@ -1,2 +1,5 @@
 ---
  -hosts: all
+  tasks: 
+   -name: Test Connectivity of hosts
+    ping:
