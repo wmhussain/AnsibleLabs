@@ -1,5 +1,6 @@
 ---
- tasks:
+- hosts: all
+  tasks:
   - name: Install Apache 
     yum:
      name: httpd
