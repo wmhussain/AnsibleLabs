@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+  - name: Install Apache 
+    service:
+     name: httpd
+     state: enabled
+  - name: Install Apache 
+    service:
+     name: httpd
+     state: started
