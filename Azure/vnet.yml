@@ -6,3 +6,9 @@
       resource_group: ansibletrainingrg
       name: testvn001
       address_prefixes: "10.10.0.0/16"
+  - name: Add subnet
+    azure_rm_subnet:
+     resource_group: ansibletrainingrg
+     name: subnet001
+     address_prefix: "10.10.0.0/24"
+     virtual_network: testvn001
