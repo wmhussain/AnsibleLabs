@@ -3,7 +3,7 @@
   -tasks:
    - name: Create virtual machine
      azure_rm_virtualmachine:
-      resource_group: Testing
+      resource_group: ansibletrainingrg
       name: testvm001
       vm_size: Standard_D1
       storage_account: akz44lpnhfs0na0w2017
@@ -17,4 +17,3 @@
        publisher: OpenLogic
        sku: '7.1'
        version: latest
-
