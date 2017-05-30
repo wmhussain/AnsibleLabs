@@ -1,19 +1,19 @@
 ---
 - hosts: all
-  -tasks:
-   - name: Create virtual machine
-     azure_rm_virtualmachine:
-      resource_group: ansibletrainingrg
-      name: testvm001
-      vm_size: Standard_D1
-      storage_account: akz44lpnhfs0na0w2017
-      storage_container: testvm001
-      storage_blob: testvm001.vhd
-      admin_username: demouser
-      admin_password: demoPassword1!
-      network_interfaces: testnic001
-      image:
-       offer: CentOS
-       publisher: OpenLogic
-       sku: '7.1'
-       version: latest
+  tasks:
+  - name: Create virtual machine
+    azure_rm_virtualmachine:
+     resource_group: ansibletrainingrg
+     name: testvm001
+     vm_size: Standard_D1
+     storage_account: akz44lpnhfs0na0w2017
+     storage_container: testvm001
+     storage_blob: testvm001.vhd
+     admin_username: demouser
+     admin_password: demoPassword1!
+     network_interfaces: testnic001
+     image:
+      offer: CentOS
+      publisher: OpenLogic
+      sku: '7.1'
+      version: latest
