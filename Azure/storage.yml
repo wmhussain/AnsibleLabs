@@ -3,7 +3,6 @@
   tasks:
   - name: Create storage account
     azure_rm_storageaccount:
-      resource_group: ansibletrainingrg 
-      #Provide Unique Name for storage account name
+      resource_group: ansibletrainingrg
       name: akz44lpnhfs0na0w2017
       account_type: Standard_LRS
