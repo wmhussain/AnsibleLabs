@@ -3,7 +3,7 @@
   tasks:
   - name: Create NIC
     azure_rm_networkinterface:
-     resource_group: ansibletrainingrg
+     resource_group: changemerg
      name: testnic001
      virtual_network: testvn001
      subnet: subnet001
