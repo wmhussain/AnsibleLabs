@@ -3,7 +3,7 @@
   tasks:
   - name: Create security group that allows SSH
     azure_rm_securitygroup:
-     resource_group: ansibletrainingrg
+     resource_group: changemerg
      name: secgroup001
      rules:
        - name: SSH
