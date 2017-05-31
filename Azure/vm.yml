@@ -3,10 +3,10 @@
   tasks:
   - name: Create virtual machine
     azure_rm_virtualmachine:
-     resource_group: ansibletrainingrg
+     resource_group: changemerg
      name: testvm001
      vm_size: Standard_D1
-     storage_account: akz44lpnhfs0na0w2017
+     storage_account: changemestor
      storage_container: testvm001
      storage_blob: testvm001.vhd
      admin_username: demouser
