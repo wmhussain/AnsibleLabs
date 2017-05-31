@@ -3,6 +3,6 @@
   tasks:
   - name: Create public ip
     azure_rm_publicipaddress:
-     resource_group: ansibletrainingrg
+     resource_group: changemerg
      allocation_method: Static
      name: publicip001
