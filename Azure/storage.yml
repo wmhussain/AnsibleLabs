@@ -3,6 +3,6 @@
   tasks:
   - name: Create storage account
     azure_rm_storageaccount:
-      resource_group: ansibletrainingrg
-      name: akz44lpnhfs0na0w2017
+      resource_group: changemerg
+      name: changemestor
       account_type: Standard_LRS
