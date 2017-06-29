@@ -2,5 +2,9 @@
   tasks:
   - name: Install EPEL Repo
     yum:
-     name: http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+     name: http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-9.noarch.rpm
+     state: present
+  - name:
+    yum:
+     name: http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
      state: present
