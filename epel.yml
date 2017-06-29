@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Install EPEL Repo
+    yum:
+     name: epel
+     state: present
